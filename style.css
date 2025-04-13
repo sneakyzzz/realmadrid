@@ -1,0 +1,67 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.campo span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.campo input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#resultado {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Estilos para a imagem do elenco */
+.logo {
+  width: 100%; /* Ajusta a largura para 100% do contêiner */
+  height: auto; /* Mantém a proporção original */
+  margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+}
